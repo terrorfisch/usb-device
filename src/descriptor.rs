@@ -110,7 +110,7 @@ impl DescriptorWriter<'_> {
         self.write(
             descriptor_type::DEVICE,
             &[
-                0x10,
+                0x00,
                 0x02,                     // bcdUSB 2.1
                 config.device_class,      // bDeviceClass
                 config.device_sub_class,  // bDeviceSubClass
